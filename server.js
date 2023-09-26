@@ -5,7 +5,7 @@ const fse = require('fs-extra');
 
 require('dotenv').config({ path: './.env' });
 
-app.use(express.static(process.env.STATIC_DIR));
+app.use(express.static(__dirname + '/public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
 
