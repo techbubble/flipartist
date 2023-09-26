@@ -1,0 +1,31 @@
+{
+    "INPUT_FOLDER": "data",
+    "OUTPUT_FOLDER": "../nfty-artworks",
+    "ORIGINAL_FOLDER": "original",
+    "THUMB_FOLDER": "thumb",
+    "THUMB_WIDTH": 960,
+    "THUMB_HEIGHT": 540,
+    "ORIGINAL_THUMB_WIDTH": 960,
+    "ORIGINAL_THUMB_HEIGHT": 640,
+    "UHD_WIDTH": 3840,
+    "UHD_HEIGHT": 2160,
+    "GUTTER": 600,
+    "MARGIN": 80,
+    "WEB_URL": "https://gallery.nftydreams.com/art.html",
+    "AWS_BUCKET_URL": "https://nfty-artworks.s3-us-west-1.amazonaws.com",
+    "ID_SEPARATOR": "/",
+    "PRICE_DATA": [
+        {
+            "title": "Digital Collectible",
+            "sku": "dc-none",
+            "width": 3000,
+            "height": 2000,
+            "usd_price": {
+                "A": 299,
+                "B": 199,
+                "C": 99,
+                "D": 49
+            }
+        }
+    ]
+}
